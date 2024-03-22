@@ -10845,7 +10845,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: black !important;
 }
 
 .text-black-50 {
@@ -11147,7 +11147,7 @@ p {
 }
 
 .portfolio .filters {
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 2px solid #000000;
   border-radius: 0;
   padding-bottom: 4px;
   margin: 0 auto 20px;
@@ -11167,9 +11167,9 @@ p {
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
   display: block;
-  color: #212529;
+  color: #000000;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 800;
   opacity: .7;
   padding: 4px 10px;
   transition: 0.3s;
@@ -11628,10 +11628,12 @@ pre .code {
   }
   .contact .contact-form-card {
     border-bottom: 1px solid #dee2e6;
+    background-color: #17263C;
   }
   .contact .contact-form-card,
   .contact .contact-info-card {
     min-height: auto !important;
+    background : black;
   }
 }
 
@@ -11652,6 +11654,7 @@ pre .code {
 
 .contact .contact-info-card {
   padding-right: 20px;
+  background: #aec5e8;
 }
 
 .contact .contact-title {
